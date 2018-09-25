@@ -87,7 +87,7 @@ az openshift create --resource-group myOSACluster --name myOSACluster -l eastus 
 After several minutes, the command completes and returns JSON-formatted information about the cluster.
 
 ## Step 3: Update Reply URLs in AAD app
-Update the reply URLs in AAD app created in step 1 with FQDN of your newly created OSA cluster and save.
+If you have an existing Web app/API type AAD application you can update the reply URLs in AAD app with FQDN of your newly created OSA cluster and save.
 
 Value of reply URL should be: https://<YOUR_FQDN>/oauth2callback/Azure%20AD
 
